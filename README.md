@@ -3,7 +3,7 @@
 # CSS Lintern - Ruby Capstone Project
 > In this project i managed to build a helper for the css files that are needed to give style to your website. It will read everyline of the css code to find basic typo warnings that we might do as begginers in the area.
 
-![screenshot](assets/screenshot.png)
+![screenshot](assets/screenshot.PNG)
 
 ## Built With
 - Ruby
