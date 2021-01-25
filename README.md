@@ -1,7 +1,7 @@
 # Ruby_Capstone_linters
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # CSS Lintern - Ruby Capstone Project
-> In this project i managed to build a helper for the css files that are needed to give style to your website. It will read everyline of the css code to find basic typo warnings that we might do as begginers in the area.
+> In this project, i managed to build a helper for the CSS files that are needed to give style to your website. It will read every line of the CSS code to find basic typo warnings that we might do as beginners in the area.
 
 ![screenshot](assets/screenshot.PNG)
 
