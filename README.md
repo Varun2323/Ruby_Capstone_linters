@@ -64,15 +64,21 @@ Below are demonstrations of good and bad code for the above cases.
 
 ## Built With
 - Ruby
+- RSpec for Ruby Testing
 
-## How to run it
-1. Download the project.
--Click on the green button that says "Code", on the upper right side of the project frame and select Download ZIP
-2. Go to the directory where you downloaded the ZIP file and open it. Extract its contents to any directory you want in your system.
-3. Copy or move your stylesheet file inside "/lib" folder with the name of style.css.
-4. Open your system terminal in the same directory where you extract the files.
-5. Run the program with ruby ./bin/css_lintern.rb
-6. Enjoy
+## Testing
+
+To test the code, run rspec from root of the folder using terminal. 
+
+    Rspec is used for the test, to install the gem file,
+
+    But before that, make sure you have bundler installed on your system, else run
+
+$ gem install bundler
+
+$ gem install rspec 
+
+$ run rspec
 
 
 ## Author
