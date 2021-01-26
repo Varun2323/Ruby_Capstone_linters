@@ -1,0 +1,27 @@
+. h1-class {
+    color: red;
+  } 
+  
+  # p-id {
+    color: blue;
+  }
+  
+  .h1-class{
+    color: green;
+  }        
+  
+  #p-id{
+    color: greenyellow;
+  }
+  
+  .h1-class { }  
+  
+  #p-id {          }  
+  
+  . h1-class{
+    color: orangered;
+  } 
+  
+  # h1-class{
+    color: orange;
+  } 
