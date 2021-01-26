@@ -30,8 +30,10 @@ Below are demonstrations of good and bad code for the above cases.
     color: blue;
 }
 
+~~~
 
 ## Bad Code
+~~~ruby
 
 . h1-class {
     color: red;
