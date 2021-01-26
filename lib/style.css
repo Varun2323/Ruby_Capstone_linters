@@ -3,15 +3,15 @@
   } 
   
   # p-id {
-    color: red;
+    color: blue;
   }
   
   .h1-class{
-    color: red;
+    color: green;
   }        
   
   #p-id{
-    color: red;
+    color: greenyellow;
   }
   
   .h1-class { }  
@@ -19,12 +19,9 @@
   #p-id {          }  
   
   . h1-class{
-    color: red;
+    color: orangered;
   } 
   
   # h1-class{
-    color: red;
+    color: orange;
   } 
-  
-  
-  

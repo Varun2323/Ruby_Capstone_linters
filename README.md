@@ -5,6 +5,63 @@
 
 ![screenshot](assets/screenshot.PNG)
 
+# The Build
+
+The custom Ruby linter currently checks/detects for the following errors/warnings.
+
+    check for spaces after the #  selector
+    check for spaces after the . selector
+    check for no spaces before opening bracket when using . selector
+    check for anything but white spaces inside the brackets when using a . selector
+    check for anything but white spaces inside the brackets when using a # selector
+    checks for spaces before the selector name and no space after the selector name.
+    checks for spaces before the selector name and no space after the # selector name.
+
+Below are demonstrations of good and bad code for the above cases.
+
+## Good Code
+~~~ruby
+
+.h1-class {
+    color: red;
+}
+
+#p-id {
+    color: blue;
+}
+
+
+## Bad Code
+
+. h1-class {
+    color: red;
+  } 
+  
+  # p-id {
+    color: blue;
+  }
+  
+  .h1-class{
+    color: green;
+  }        
+  
+  #p-id{
+    color: greenyellow;
+  }
+  
+  .h1-class { }  
+  
+  #p-id {          }  
+  
+  . h1-class{
+    color: orangered;
+  } 
+  
+  # h1-class{
+    color: orange;
+  }
+~~~    
+
 ## Built With
 - Ruby
 
